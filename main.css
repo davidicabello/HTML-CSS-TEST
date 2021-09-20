@@ -4,8 +4,8 @@
 }
 
 body {
-    background-color: #fff;
-    font-family: "Roboto", sans-serif;
+    background-color: whitesmoke;
+    font-family: 'IBM Plex Mono', monospace;
     margin: 0;
     
 }
@@ -18,20 +18,22 @@ body {
 }
 
 header {
-    background-image: url("background.png");
+    background-image: url('white-cube-pattern-4k-bu.jpg');
     background-size: cover;
     background-position: center center;
-    color: white;
+    color: whitesmoke;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     min-height: calc(100vh - 102px);
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 .content {
     font-size: 2rem;
-    margin: auto;
+    margin: auto auto;
     max-width: 100%;
+    color: black;
 
 }
 
@@ -48,6 +50,7 @@ nav {
 
 nav .logo {
     font-size: 1.2rem;
+    color: black;
 }
 
 nav ul {
@@ -57,7 +60,7 @@ nav ul {
 }
 
 nav li a {
-    color: white;
+    color: black;
     padding: 1rem;
     text-decoration: none;
 }
@@ -68,9 +71,10 @@ nav li a {
 
 .highlight {
     
-    color: white;
+    color: black;
     padding: 1rem;
     text-decoration: none;
+    border-radius: 2rem;
 }
 
 .social{
@@ -163,7 +167,7 @@ nav li a {
 }
 
 footer {
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.781);
     color: #fff;
     padding: 1rem;
     place-items: center;
@@ -184,6 +188,43 @@ footer strong {
 
 footer p {
     margin: 0;
+}
+
+div.type {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    white-space: nowrap;
+    text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+}
+
+.type h1 {
+    display: inline-block;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    max-width: auto;
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: type 5s steps(100, end), blink-caret .5s step-end infinite
+}
+
+
+@keyframes type {
+    from {
+        max-width: 0;
+    }
+    to {
+        max-width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent
+    }
+    50% {
+        border-color: rgb(0, 0, 0);
+    }
 }
 
 @media screen and (max-width: 700px) {
