@@ -4,12 +4,12 @@ var typewriter = new Typewriter(app, {
     loop: true
 });
 
-typewriter.typeString('Mira mis redes sociales!')
+typewriter.typeString('Developer')
     .pauseFor(2500)
-    .deleteAll()
-    .typeString('No te olvides de seguirme!')
+    .deleteChars(7)
+    .typeString('signer')
     .pauseFor(2500)
     .deleteChars(9)
-    .typeString('<strong>seguirme!</strong>')
+    .typeString('Freelancer')
     .pauseFor(2500)
     .start();

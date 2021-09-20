@@ -7,7 +7,6 @@ body {
     background-color: whitesmoke;
     font-family: 'IBM Plex Mono', monospace;
     margin: 0;
-    
 }
 
 .container {
@@ -29,14 +28,32 @@ header {
     font-family: 'IBM Plex Mono', monospace;
 }
 
+.minameis {
+    font-size: 1rem;
+    margin-bottom: 0rem;
+    font-weight: bold;
+}
+
+.im {
+    width: auto;
+    float: left;
+    margin: 5px;
+}
+
+
 .content {
     font-size: 2rem;
+    margin: 10rem auto;
+    max-width: 100%;
+    color: black;
+}
+
+.content2 {
+    font-size: 1.5rem;
     margin: auto auto;
     max-width: 100%;
     color: black;
-
 }
-
 .content h1 {
     color: #00c2ff;
     margin-bottom: 0;
@@ -70,14 +87,19 @@ nav li a {
 }
 
 .highlight {
-    
-    color: black;
-    padding: 1rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.781);
     text-decoration: none;
-    border-radius: 2rem;
+    border-radius: 1rem;
 }
-
-.social{
+.highlight2 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.781);
+    text-decoration: none;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.social {
     vertical-align: center;
     place-items: center;
 }
@@ -208,7 +230,6 @@ div.type {
     animation: type 5s steps(100, end), blink-caret .5s step-end infinite
 }
 
-
 @keyframes type {
     from {
         max-width: 0;
@@ -232,24 +253,19 @@ div.type {
         font-size: 1.4rem;
         margin: 2rem auto 0;
     }
-
     nav ul {
         flex-direction: column;
     }
-
     nav li:not(:last-child) {
         margin-bottom: 1rem;
     }
-
     nav .highlight {
         display: none;
     }
-
     footer ul {
         flex-direction: column;
         justify-content: center;
     }
-
     footer li {
         margin: 1rem;
         text-align: center;
