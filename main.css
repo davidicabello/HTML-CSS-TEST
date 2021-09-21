@@ -95,18 +95,17 @@ nav li a {
     text-decoration: none;
 }
 
-.selected {
-    font-weight: bold;
-}
-
 .highlight {
     color: white;
-    background-color: rgba(0, 0, 0, 0.781);
+    background-color:rgba(255, 68, 0, 0.788);
     text-decoration: none;
     border-radius: 1rem;
 }
-.highlight2 {
+.highlight:hover{
     color: black;
+}
+.highlight2 {
+    color: orangered;
    text-decoration: none;
    font-size: 3rem;
 }
