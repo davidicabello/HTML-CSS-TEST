@@ -41,3 +41,10 @@ typewriter.typeString('Mis habilidades:')
     .typeString('git')
     .pauseFor(1000)
     .start();
+
+    //DarkMode
+
+function toggleDarkMode() {
+    const darkMode = document.querySelector('body')
+    darkMode.classList.toggle('dark-mode');
+}

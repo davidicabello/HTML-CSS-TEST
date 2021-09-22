@@ -122,8 +122,7 @@ nav li a {
     margin: auto auto;
     color: whitesmoke;
     padding: 120px 0;
-    
-    
+     
 }
 
 .wrapper {
@@ -241,6 +240,18 @@ footer strong {
 footer p {
     margin: 0;
 }
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.flex-container div, img{
+   height: 300px;
+   width: 300px;
+    margin: auto;
+}
+
 
 @media screen and (max-width: 700px) {
     .content {
