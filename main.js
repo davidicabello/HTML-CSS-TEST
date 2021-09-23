@@ -48,3 +48,4 @@ function toggleDarkMode() {
     const darkMode = document.querySelector('body')
     darkMode.classList.toggle('dark-mode');
 }
+
