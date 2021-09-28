@@ -133,10 +133,11 @@ nav li a {
 
 .wrapper {
     display: inline-flex;
+    flex-wrap: wrap;
 }
 
 .wrapper .icon {
-    position: relative;
+    position: center;
     background-color: #ffffff;
     border-radius: 50%;
     padding: 15px;
@@ -261,6 +262,9 @@ footer p {
     letter-spacing: 1px;
 }
 
+.contact-section{
+    align-items: center;
+}
 
 @media screen and (max-width: 700px) {
     .content {
