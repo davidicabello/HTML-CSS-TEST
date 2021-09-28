@@ -40,17 +40,16 @@ body {
     margin: 0;
 }
 
-.im2{
+.im2 {
     color: black;
     font-weight: bold;
 }
 
-.container img{
+.container img {
     width: 250px;
     height: 250px;
     border-radius: 2rem;
 }
-
 
 .content {
     font-size: 2rem;
@@ -65,15 +64,18 @@ body {
     max-width: 100%;
     color: black;
 }
+
 .content h1 {
     color: #00c2ff;
     margin-bottom: 0;
 }
-.container-fluid{
+
+.container-fluid {
     max-width: 1000px;
-    padding: 1rem; 
+    padding: 1rem;
     margin: 20px auto;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -82,7 +84,9 @@ nav {
 
 nav .logo {
     font-size: 1.5rem;
+    font-weight: bolder;
     color: black;
+    text-shadow: 4px 5px 5px;
 }
 
 nav ul {
@@ -99,30 +103,32 @@ nav li a {
 
 .highlight {
     color: white;
-    background-color:rgba(255, 68, 0, 0.788);
+    background-color: rgba(255, 68, 0, 0.788);
     text-decoration: none;
     border-radius: 1rem;
 }
-.highlight:hover{
+
+.highlight:hover {
     color: black;
 }
+
 .highlight2 {
     color: orangered;
-   text-decoration: none;
-   font-size: 3rem;
+    text-decoration: none;
+    font-size: 3rem;
 }
+
 .social {
     vertical-align: center;
     place-items: center;
 }
 
-.wrapper-head{
+.wrapper-head {
     background-color: #212121;
     width: 100%;
     margin: auto auto;
     color: whitesmoke;
     padding: 120px 0;
-     
 }
 
 .wrapper {
@@ -210,11 +216,10 @@ nav li a {
     color: #ffffff;
 }
 
-section{
+section {
     justify-content: center;
-    display:flex;
+    display: flex;
     max-width: auto
-   
 }
 
 footer {
@@ -241,17 +246,20 @@ footer p {
     margin: 0;
 }
 
-.flex-container{
+.flex-container {
     display: flex;
     flex-wrap: wrap;
-    
 }
-.flex-container div, img{
-   height: 300px;
-   width: 300px;
+
+.flex-container div, img {
+    height: 300px;
+    width: 300px;
     margin: auto;
 }
 
+.clearfix p {
+    letter-spacing: 1px;
+}
 
 
 @media screen and (max-width: 700px) {
