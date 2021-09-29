@@ -133,7 +133,6 @@ nav li a {
 
 .wrapper {
     display: inline-flex;
-    flex-wrap: wrap;
 }
 
 .wrapper .icon {
